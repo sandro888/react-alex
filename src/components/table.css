@@ -1,0 +1,46 @@
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin: 0 auto;
+
+    width: 95%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.search input {
+    display: block;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 30%;
+    height: 30px;
+    outline: none;
+    padding-left: 4px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 3px solid lightgray;
+    background: transparent;
+}
+
+.search input::placeholder {
+    font-family: sans-serif;
+
+}
+.modal-btn{
+    border: none;
+    background: #b577b5;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
