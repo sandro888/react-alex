@@ -101,13 +101,13 @@ const Countries = () => {
                 <Table className={classes.table} aria-label="simple table">
                     <TableHead>
                         <TableRow>
-                            <TableCell style={{fontWeight:'bold'}}>Country</TableCell>
-                            <TableCell   style={{fontWeight:'bold'}}>NewConfirmed</TableCell>
-                            <TableCell   style={{fontWeight:'bold'}}>TotalConfirmed</TableCell>
-                            <TableCell   style={{fontWeight:'bold'}}>NewDeaths</TableCell>
-                            <TableCell   style={{fontWeight:'bold'}}>NewRecovered</TableCell>
-                            <TableCell   style={{fontWeight:'bold'}}>TotalDeaths</TableCell>
-                            <TableCell   style={{fontWeight:'bold'}}>TotalRecovered</TableCell>
+                            <TableCell style={{ fontWeight: 'bold' }}>Country</TableCell>
+                            <TableCell style={{ fontWeight: 'bold' }}>NewConfirmed</TableCell>
+                            <TableCell style={{ fontWeight: 'bold' }}>TotalConfirmed</TableCell>
+                            <TableCell style={{ fontWeight: 'bold' }}>NewDeaths</TableCell>
+                            <TableCell style={{ fontWeight: 'bold' }}>NewRecovered</TableCell>
+                            <TableCell style={{ fontWeight: 'bold' }}>TotalDeaths</TableCell>
+                            <TableCell style={{ fontWeight: 'bold' }}>TotalRecovered</TableCell>
                         </TableRow>
                     </TableHead>
                     {tableBody}

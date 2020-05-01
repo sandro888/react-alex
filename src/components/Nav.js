@@ -1,4 +1,3 @@
-//importing packages starts here
 import React, { useState, useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Switch from '@material-ui/core/Switch';
@@ -72,7 +71,6 @@ export default function SimpleGrow() {
             </Typography>
           </Paper>
         </Grow>
-        {/* Conditionally applies the timeout prop to change the entry speed. */}
         <Grow
           in={checked}
           style={{

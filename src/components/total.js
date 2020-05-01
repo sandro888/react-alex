@@ -1,4 +1,3 @@
-//importing packages starts here
 import React, { useState, useEffect } from 'react';
 import Grid from '@material-ui/core/Grid';
 import CardMedia from '@material-ui/core/CardMedia';
